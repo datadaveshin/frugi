@@ -1,0 +1,22 @@
+{
+  "name": "frugi",
+  "version": "1.0.0",
+  "description": "Price Book and Comparison App",
+  "main": "app.js",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "knex": "^0.12.6",
+    "pg": "^6.1.0",
+    "supertest": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
