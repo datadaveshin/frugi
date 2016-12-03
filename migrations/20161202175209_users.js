@@ -1,0 +1,13 @@
+"use strict";
+exports.up = function(knex, Promise) {
+    return knex.schema.createTable('users', table => {
+        table.increments();
+        table.string('user_name', 'varchar(255)').defaultTo('').notNullable();
+        table.string('email', 'varchar(255)').defaultTo('').notNullable();
+        table.specificType('password', 'char(60)').defaultTo('').notNullable();
+    });
+};
+
+exports.down = function(knex, Promise) {
+    return knex.schema.dropTable('users');
+};
