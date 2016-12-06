@@ -4,6 +4,8 @@
   "description": "Price Book and Comparison App",
   "main": "app.js",
   "dependencies": {
+    "bcrypt": "^1.0.0",
+    "bcrypt-as-promised": "^1.1.0",
     "chai": "^3.5.0",
     "ejs": "^2.5.3",
     "express": "^4.14.0",
