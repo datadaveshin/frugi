@@ -5,6 +5,7 @@ exports.up = function(knex, Promise) {
         table.string('user_name', 'varchar(255)').defaultTo('').notNullable();
         table.string('email', 'varchar(255)').defaultTo('').notNullable();
         table.specificType('password', 'char(60)').defaultTo('').notNullable();
+        table.timestamps(true, true);
     });
 };
 

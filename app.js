@@ -24,6 +24,13 @@ app.listen(PORT, () => {
     console.log(`Listening on ${PORT}`);
 })
 
+// Set views
+app.set('view engine', 'ejs')
+app.set('views', [
+    path.join(__dirname, 'views/main/'),
+    path.join(__dirname, 'views/users/')
+]);
+
 // Routes
 app.use('/', index);
 
