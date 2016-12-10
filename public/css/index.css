@@ -1,0 +1,31 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+header {
+    background: url(../images/street-market-fruits-grocery.jpg) no-repeat;
+    background-size: cover;
+    height: 400px;
+    /*flex-direction: column;
+    justify-content: center;*/
+}
+
+h1 {
+  text-shadow: -1px 0 #673ab7, 0 1px #673ab7, 1px 0 #673ab7, 0 -1px #673ab7;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%;
+}
