@@ -1,28 +1,55 @@
 "use strict";
+
 let products = [{
   id: 1,
-  name: 'Peanut butter',
+  name: 'peanut butter',
+  created_at: new Date('2016-12-09 12:30:45 UTC'),
+  updated_at: new Date('2016-12-09 12:30:45 UTC')
 }, {
   id: 2,
-  name: 'Milk',
+  name: 'jelly',
+  created_at: new Date('2016-12-09 12:35:45 UTC'),
+  updated_at: new Date('2016-12-09 12:35:45 UTC')
 }, {
   id: 3,
-  name: 'Eggs',
+  name: 'bread',
+  created_at: new Date('2016-12-09 12:35:45 UTC'),
+  updated_at: new Date('2016-12-09 12:35:45 UTC')
 }, {
   id: 4,
-  name: 'Soylent Green',
+  name: 'eggs',
+  created_at: new Date('2016-12-09 12:40:45 UTC'),
+  updated_at: new Date('2016-12-09 12:40:45 UTC')
 }, {
   id: 5,
-  name: 'Salmon',
+  name: 'milk',
+  created_at: new Date('2016-12-09 12:40:45 UTC'),
+  updated_at: new Date('2016-12-09 12:40:45 UTC')
 }, {
   id: 6,
-  name: 'laundry soap',
+  name: 'shampoo',
+  created_at: new Date('2016-12-09 12:45:45 UTC'),
+  updated_at: new Date('2016-12-09 12:45:45 UTC')
 }, {
   id: 7,
-  name: 'TV',
+  name: 'conditioner',
+  created_at: new Date('2016-12-09 12:45:45 UTC'),
+  updated_at: new Date('2016-12-09 12:45:45 UTC')
 }, {
   id: 8,
-  name: 'protein bars',
+  name: 'paper towels',
+  created_at: new Date('2016-12-09 12:50:45 UTC'),
+  updated_at: new Date('2016-12-09 12:50:45 UTC')
+}, {
+  id: 9,
+  name: 'toilet paper',
+  created_at: new Date('2016-12-09 12:50:45 UTC'),
+  updated_at: new Date('2016-12-09 12:50:45 UTC')
+}, {
+  id: 10,
+  name: 'laundry soap',
+  created_at: new Date('2016-12-09 12:50:45 UTC'),
+  updated_at: new Date('2016-12-09 12:50:45 UTC')
 }];
 
 exports.seed = function(knex, Promise) {
