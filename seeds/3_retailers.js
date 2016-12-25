@@ -59,7 +59,7 @@ let retailers = [{
 }, {
   id: 9,
   name: 'winco',
-  city: 'vancouver'
+  city: 'vancouver',
   state: 'wa',
   created_at: new Date('2016-12-11 12:35:45 UTC'),
   updated_at: new Date('2016-12-11 12:35:45 UTC')
