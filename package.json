@@ -18,7 +18,7 @@
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "test": "NODE_ENV=test2 mocha",
+    "test": "NODE_ENV=test mocha",
     "knex": "knex"
   },
   "author": "",

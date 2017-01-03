@@ -37,14 +37,14 @@ suite('Test Migrations - Prices', () => {
 
                 price: {
                     type: 'numeric',
-                    maxLength: 8,
+                    maxLength: null,
                     nullable: false,
-                    defaultValue: '\'\'::character varying'
+                    defaultValue: null
                 },
 
                 amount: {
                     type: 'numeric',
-                    maxLength: 255,
+                    maxLength: null,
                     nullable: false,
                     defaultValue: null
                 },

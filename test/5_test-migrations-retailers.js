@@ -42,11 +42,18 @@ suite('Test Migrations - Retailers', () => {
                     defaultValue: '\'\'::character varying'
                 },
 
-                state: {
+                city: {
                     type: 'character varying',
                     maxLength: 255,
                     nullable: false,
                     defaultValue: '\'\'::character varying'
+                },
+
+                state: {
+                    type: 'character',
+                    maxLength: 2,
+                    nullable: false,
+                    defaultValue: null
                 },
 
                 created_at: {
