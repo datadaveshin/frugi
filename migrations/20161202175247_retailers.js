@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
         table.increments();
         table.string('name', 'varchar(255)').defaultTo('').notNullable();
         table.string('city', 'varchar(255)').defaultTo('').notNullable();
-        table.string('state', 'char(2)').defaultTo('').notNullable();
+        table.string('state', 2).defaultTo('').notNullable();
         table.timestamps(true, true);
     });
 };

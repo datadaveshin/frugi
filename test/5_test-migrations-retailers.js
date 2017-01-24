@@ -50,10 +50,10 @@ suite('Test Migrations - Retailers', () => {
                 },
 
                 state: {
-                    type: 'character',
+                    type: 'character varying',
                     maxLength: 2,
                     nullable: false,
-                    defaultValue: null
+                    defaultValue: '\'\'::character varying'
                 },
 
                 created_at: {

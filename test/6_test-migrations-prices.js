@@ -57,7 +57,7 @@ suite('Test Migrations - Prices', () => {
                 },
 
                 product_id: {
-                    type: 'numeric',
+                    type: 'integer',
                     maxLength: null,
                     nullable: false,
                     defaultValue: null
