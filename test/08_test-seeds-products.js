@@ -12,7 +12,7 @@ const supertest = require('supertest');
 const app = require('../app');
 
 // Test seeds
-suite('Test Seeds - Users', () => {
+suite('Test Seeds - Products', () => {
     before((done) => {
         knex.migrate.latest()
             .then(() => {
@@ -33,7 +33,7 @@ suite('Test Seeds - Users', () => {
             });
     });
 
-    test('users rows', (done) => {
+    test('products rows', (done) => {
         knex('products').orderBy('id', 'ASC')
         .then((actual) => {
             const expected = [{
@@ -69,7 +69,7 @@ suite('Test Seeds - Users', () => {
             }, {
               id: 6,
               name: 'shampoo',
-              brand: '',
+              brand: null,
               created_at: new Date('2016-12-09 12:45:45 UTC'),
               updated_at: new Date('2016-12-09 12:45:45 UTC')
             }, {
@@ -81,7 +81,7 @@ suite('Test Seeds - Users', () => {
             }, {
               id: 8,
               name: 'paper towels',
-              brand: '',
+              brand: null,
               created_at: new Date('2016-12-09 12:50:45 UTC'),
               updated_at: new Date('2016-12-09 12:50:45 UTC')
             }, {
