@@ -33,6 +33,7 @@ let products = [{
 }, {
   id: 6,
   name: 'shampoo',
+  brand: null,
   created_at: new Date('2016-12-09 12:45:45 UTC'),
   updated_at: new Date('2016-12-09 12:45:45 UTC')
 }, {
